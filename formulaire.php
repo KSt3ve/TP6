@@ -17,3 +17,5 @@ class formulaire{
         echo "<form method='".$methode."' action='".$nomfichier."'>";
     }
 }
+
+?>
