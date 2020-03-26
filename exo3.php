@@ -46,13 +46,11 @@
             $this->Genre = $_POST['genre'];
         }
         public function display(){
-
                 echo "Votre nom est ".$this->Nom.'<br>';
                 echo "Votre Prénom est ".$this->Prenom.'<br>';
                 echo "Votre mail est ".$this->Mail.'<br>';
                 echo "Vous avez ".$this->Age.'<br>';
                 echo "Votre genre : ".$this->Genre.'<br>';
-
         }
         public function __construct(){
             $this->Nom = $_POST['Nom'];
