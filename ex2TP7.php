@@ -22,7 +22,7 @@ class Circle implements Shape{
 
     //méthode
     function getArea($witch,$height,$radius){
-        echo 2*M_PI*$radius;
+        echo M_PI*$radius*$radius;
     }
     function __construct($Radius){
         $this->radius = $Radius;
